@@ -1,0 +1,61 @@
+<!doctype html>
+<html class="no-js">
+<head >
+	<meta name="viewport" content="width=device-width">
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans|Sorts+Mill+Goudy' rel='stylesheet' type='text/css'>
+	<script src="bower_components/jquery/jquery.min.js"></script>
+	<script src="bower_components/jquery/jquery.min.map"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<!--My Includes-->
+	<script src="app.js"></script>
+	<script src="main-controller.js"></script>
+	<script src="nav-controller.js"></script>
+	<script src="composer-controller.js"></script>
+</head>
+<body ng-app="myApp">
+	<div class="header">
+		<div class="navbar navbar-default" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<a class="navbar-brand" href="#/">F&Aacute;BIAN L&Oacute;PEZ</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="js-navbar-collapse" ng-controller="NavCtrl">
+
+					<ul class="nav navbar-nav navbar-right">
+						<li ng-class="classActive('/')"> <a href="#" class="menu-btn">Home</a></li>
+						<li ng-class="classActive('/about')"> <a href="#/about" class="menu-btn">About</a></li>
+						<li ng-class="classActive('/composers')"> <a href="#/composers" class="menu-btn">Composers</a></li>
+						<li><a ng-href="#/">Bibliography</a></li>
+						<li><a ng-href="#/">Links</a></li>
+						<li><a ng-href="#/">Contact</a></li>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container" id="subcontainer" ng-controller="PhoneListCtrl">
+			<div ng-view=""></div>
+		</div>
+
+		<footer class="footer">
+      		<div class="container">
+        		<p class="text-muted">&copy; 2015 Fabian Lopez</p>
+      		</div>
+    	</footer>
+    	<!--IE10 viewport hack for Surface/desktop Windows 8 bug-->
+    	<script src="js/ie10-viewport-bug-workaround.js"></script>
+	</body>
+	</html> 

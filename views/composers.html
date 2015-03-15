@@ -1,0 +1,30 @@
+
+<div class="title-strip">
+
+</div>
+
+<div class="composer-container" style="width:90%; margin-left:auto; margin-right:auto;">
+	<div class="col-md-4 pull-right" style="margin-top:11px;">
+		<div class="lighter">
+
+			<span><input type="text" class="search rounded" xng-clearable data-ng-model="composer.last_name" placeholder="Search..." list="typeahead_composers"></span>
+		</div>
+	</div>
+	<datalist id="typeahead_composers">
+	<option  data-ng-repeat="composer in composers" value="{{composer.last_name}}"> </option>
+		</datalist>
+		<div class="about-title">Composers</div>  
+
+		<div class="article">
+
+			<div ng-repeat="composer in composers | filter:composer.last_name">
+				<div class="panel panel-default" style="border:none; box-shadow:none;">
+					<strong>{{composer.first_name}} {{composer.last_name}}</strong>  ({{composer.birth}}-{{composer.death}})
+					<div class="panel-body">
+						{{composer.bio}}
+					</div>
+					<div>
+					</div>
+				</div>
+				<hr>
+			</div>
