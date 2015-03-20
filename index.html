@@ -2,43 +2,55 @@
 <html class="no-js">
 <head>
 	<meta charset="utf-8"></meta>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width">
+	<!-- Angular -->
 	<script src="http://code.angularjs.org/1.2.25/angular.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+	<!-- Google Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans|Sorts+Mill+Goudy' rel='stylesheet' type='text/css'>
-	<script src="bower_components/angular-lazytube/angular-lazytube.js"></script>
-	<script src="bower_components/angular-lazytube/angular-lazytube.min.js.map"></script>
+	<!-- JQuery -->
 	<script src="bower_components/jquery/jquery.min.js"></script>
 	<script src="bower_components/jquery/jquery.min.map"></script>
-	<script src="bower_components/angular-clearable/js/angular-clearable.js"></script>
+	<!-- Bootstrap -->
 	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 	<link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
-	<link href="style.css" rel="stylesheet">
-	<!--My Includes-->
+	<!-- Main Module -->
 	<script src="app.js"></script>
-	<script src="main-controller.js"></script>
-	<script src="nav-controller.js"></script>
-	<script src="composer-controller.js"></script>
-
+	<!-- Stylesheets -->
+	<link href="style.css" rel="stylesheet">
+	<!--Controllers-->
+	<script src="controllers/main-controller.js"></script>
+	<script src="controllers/nav-controller.js"></script>
+	<script src="controllers/composer-controller.js"></script>
+	<!-- Directives -->
+	<script src="bower_components/angular-lazytube/angular-lazytube.js"></script>
+	<script src="bower_components/angular-lazytube/angular-lazytube.min.js.map"></script>
+	<script src="bower_components/angular-clearable/js/angular-clearable.js"></script>
+	<!--HTML5 Shim for IE8 Support -->
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+	</script>
+	<![endif]-->
 </head>
 <body ng-app="myApp">
+	<!--[if lt IE 7]>
+	<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+<div id="wrap">
 	<div class="header">
 		<div class="navbar navbar-default" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
-
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-
 					<a class="navbar-brand" href="#/">F&Aacute;BIAN L&Oacute;PEZ</a>
 				</div>
-
 				<div class="collapse navbar-collapse" id="js-navbar-collapse" ng-controller="NavCtrl">
-
 					<ul class="nav navbar-nav navbar-right">
 						<li ng-class="classActive('/')"> <a href="#" class="menu-btn">Home</a></li>
 						<li ng-class="classActive('/about')"> <a href="#/about" class="menu-btn">About</a></li>
@@ -46,18 +58,17 @@
 						<li ng-class="classActive('/biblio')"> <a href="#/biblio" class="menu-btn">Bibliography</a></li>
 						<li ng-class="classActive('/links')"> <a href="#/links" class="menu-btn">Links</a></li>
 						<li ng-class="classActive('/contact')"> <a href="#/contact" class="menu-btn">Contact</a></li>
-
 					</div>
 				</div>
 			</div>
 		</div>
-		
-			<div ng-view=""></div>
-		
-
+			<div ng-view="">
+				
+			</div>
+		</div>
 		<footer class="footer">
       		<div class="container">
-        		<p class="text-muted">&copy; 2015 Fabian Lopez</p>
+        		<p class="text-muted" style="padding-top:19px;">&copy; 2015 Fabian Lopez</p>
       		</div>
     	</footer>
     	<!--IE10 viewport hack for Surface/desktop Windows 8 bug-->

@@ -1,34 +1,121 @@
- [
+[
     {
-      "first_name": "Ludwig van",
-      "last_name": "Beethoven",
-      "bio": "Pancetta swine bacon prosciutto beef pork turducken venison shank frankfurter corned beef bresaola jerky short loin andouille. Leberkas strip steak ham hock picanha kevin pancetta short loin beef ribs tri-tip landjaeger rump corned beef. Venison porchetta ground round kielbasa. Landjaeger shankle kevin sirloin, tongue ground round cupim filet mignon hamburger strip steak. T-bone meatball kevin, tenderloin picanha pig cow shoulder bacon tail swine cupim. Andouille picanha meatloaf pork loin venison turkey, drumstick jowl pancetta ham pork belly. Leberkas drumstick strip steak jerky beef, venison flank pancetta turducken short ribs brisket prosciutto.",
-      "birth": "1770",
-      "death": "1827",
-      "nationality": "German"
+        "first_name": "Hubert",
+        "last_name": "Léonard",
+        "bio": "Eminent Belgian violinist and teacher. Studied with Rouma and Habeneck in Paris. He succeded de Bériot as first violin professor at the Brussels Conservatory. He wrote 3 books of etudes, a violin method, 5 violin concertos, 6 concert pieces, a serenade for 3 violins, and a book titled: Le violon au point de veu de l’orchestration (The Violin in Terms of Orchestration.)",
+        "birth": "1819",
+        "death": "1890"
     },
     {
-    "first_name": "Jean",
-    "last_name": "Sibelius",
-    "bio": "Porchetta hamburger pancetta ham hock turkey shankle t-bone tenderloin prosciutto filet mignon tri-tip meatloaf flank picanha pork chop. Hamburger strip steak jerky cow tail filet mignon pig frankfurter kielbasa pork loin. Swine alcatra fatback, pork belly pancetta rump pastrami turkey beef ribs. Fatback ground round t-bone chicken porchetta shoulder, jowl ball tip beef boudin flank pork belly pork loin turkey.",
-    "birth": "1992",
-    "death": "1993",
-    "nationality": "Finnish"
+        "first_name": "Rodolfo",
+        "last_name": "Lipizer",
+        "bio": "His family was from Gorizia and had ancient music traditions: his father was a good clarinet-player, his maternal grandfather, Antonio Pelizon, was a famous violinmaker, who followed the technique of Amati's school. Rodolfo Lipizer studied violin at Vienna Musical Academy of State with M° Gottfried Feist, obtaining the best marks. At Vienna Academy he also studied composition with Prof. Mandyczewski and Marx as well as orchestra conducting with Prof. Franz Schalk; at the same time he attended the Faculty of Philosophy at Vienna University with the musicologist, historian and philosopher Guido Adler, friend of Mahler, one of the founders of the great Austrian musicology of historicistic kind.",
+        "birth": "1895",
+        "death": "1974"
     },
     {
-    "first_name": "Sergei",
-    "last_name": "Prokofiev",
-    "bio": "Meatball venison shank jowl filet mignon swine fatback ground round strip steak. Hamburger t-bone cupim, corned beef swine short ribs ham hock andouille turducken pancetta leberkas tail jerky strip steak. Spare ribs pork loin strip steak pork brisket capicola ground round kielbasa beef ribs swine drumstick. Salami doner pork belly, andouille fatback pork chop beef ribs. Pancetta salami pastrami, boudin kevin filet mignon prosciutto short loin.",
-    "birth": "now",
-    "death": "later",
-    "nationality": "Russian"
+        "first_name": "Pietro",
+        "last_name": "Locatelli",
+        "bio": "Italian composer and violinist. Pietro Antonio Locatelli was in the Italian city of Bergamo. He was still a young boy when his astonishing talent for playing the violin revealed itself. Joining the Bergamo Cathedral instrumental ensemble as a boy, he left it in 1711 at the age of sixteen to go to Rome. For a violinist on the threshold of his career, Rome was the place to be as it was there that Arcangelo Corelli lived. Although Locatelli did not actually study with Corelli, he certainly absorbed a good deal of his influence.",
+        "birth": "1695",
+        "death": "1764"
     },
     {
-    "first_name": "Pyotr Ilyich",
-    "last_name": "Tchaikovsky",
-    "bio": "Bacon ipsum dolor amet cow fatback chicken, pork loin kevin andouille ground round capicola beef ribs strip steak shankle corned beef pork chop beef. Pancetta kielbasa pork loin boudin, fatback pig shoulder strip steak rump bacon sirloin ham filet mignon. Pig boudin beef ribs strip steak, salami shankle capicola pork belly kevin turducken flank bresaola doner hamburger. Chicken sirloin pork jowl capicola ground round meatloaf doner  ",
-    "birth": "3202",
-    "death": "2838",
-    "nationality": "Russian"
+        "first_name": "Jacques Féréol",
+        "last_name": "Mazas",
+        "bio": "French violinist and teacher. He was a pupil of Pierre Baillot at the Paris Conservatoire, from which he received the first prize in 1805. He toured all over Europe. It was only in 1831 that he obtained a permanent post as first violin at the Palais Royal Theatre. A short time after, he became directeur des concerts in Orléans, where he directed the Opéra Comique. From 1837 to 1841, he was Director of Cambrai Conservatoire.",
+        "birth": "1782",
+        "death": "1849"
+    },
+    {
+        "first_name": "Lambert Joseph",
+        "last_name": "Meerst",
+        "bio": "Student of Lafont and Habeneck in Paris. Since 1835 he became professor at the Brussels Conservatory. He wrote several instructional materials for the violin.",
+        "birth": "1800",
+        "death": "1863"
+    },
+    {
+        "first_name": "Enrico",
+        "last_name": "Polo",
+        "bio": "Italian violinist and composer. Studied with J. Joachim in Berlin. He was the concertmaster at Arturo’s Toscanini orchestra in Turin. He married her sister and was a very influential figure at the Milan Conservatory for more than thirty years. His motto about teaching was: %94Love is the first secret of good teaching; it's not just the method, it takes heart.%94",
+        "birth": "1868",
+        "death": "1953"
+    },
+    {
+        "first_name": "Jacques Pierre Joseph",
+        "last_name": "Rode",
+        "bio": "French Violinist and Composer. Studied with Viotti, whom thought Rode was so talented, that never charged him for lessons. He collaborated with Baillot and Kreutzer on the official Violin Method of the Conservatoire of Paris. Beethoven wrote his last Violin Sonata for him. Rode wrote 13 violin concertos and the well known 24 Caprices for violin.",
+        "birth": "1774",
+        "death": "1830"
+    },
+    {
+        "first_name": "Pietro",
+        "last_name": "Rovelli",
+        "bio": "Pietro Rovelli was pupil of his father Alessandro Rovelli, who was Kapellmeister at the court of temporarily Weimar. After the first concert successes in northern Italy continued his studies with Rodolphe Kreutzer in Paris. From 1815 to 1818 Rovelli was concertmaster of the Royal Court Orchestra in Munich. Concert tours took him to Vienna, where he pianist Micheline Förster, the daughter of Beethoven mentor Emanuel Aloys Förster, whom he later married.",
+        "birth": "1793",
+        "death": "1838"
+    },
+    {
+        "first_name": "Niccolo",
+        "last_name": "Paganini",
+        "bio": "Italian violinist, violist, guitarist, and composer. He was the most celebrated violin virtuoso of his time, and left his mark as one of the pillars of modern violin technique. His Caprice No. 24 in A minor, Op. 1, is among the best known of his compositions, and has served as an inspiration for many prominent composers.",
+        "birth": "1782",
+        "death": "1840"
+    },
+    {
+        "first_name": "Emile",
+        "last_name": "Sauret",
+        "bio": "He began studying violin at the Conservatoire de Strasbourg at the age of six, and with a reputation as child prodigy he began performing two years later. He studied under Charles Auguste de Bériot and later became a student of Henri Vieuxtemps and Henryk Wieniawski. Aged 18, he started studying composition as a pupil of Salomon Jadassohn at the Leipzig Conservatory, where he struck up many friendships. Among these were Fritz Steinbach and Richard Sahla, a child prodigy like Sauret himself. Sauret played in the most famous concert halls of his time. He made his American debut in 1872. Franz Liszt performed sonatas with him. In 1873, Sauret married Teresa Carreño, a Venezuelan pianist and composer, by whom he had a daughter, Emilita. The marriage did not last%3B in 1879 he remarried. Because of the excessive difficulties of his violin compositions, Émile Sauret is remembered today for little more than the cadenza for Niccolò Paganini's Violin Concerto No. 1 in D major.",
+        "birth": "1852",
+        "death": "1920"
+    },
+    {
+        "first_name": "Hans",
+        "last_name": "Sitt",
+        "bio": "German violinist, teacher, and composer. His father, Anton Sitt, was a well-known violinmaker. He never achieved the “Wunderkind” status, although he was a prodigy. In 1880 he became the conductor of the orchestra of the Baron Derwies at Nice. After the death of the Baron Derwies, Sitt went to North Germany and became the conductor of the recently formed Crystal palace Institute orchestra. Yet, neither of the positions he held were important. When Brodsky was appointed violin professor at the Leipzig Conservatory, he founded a string quartet with Novacek, Sitt (viola), and Grützmacher, which gain fame all over Europe very quickly. Besides his numerous etudes and scales he wrote two violin concertos, two concertinos, and several short pieces for violin.",
+        "birth": "1850",
+        "death": "1922"
+    },
+    {
+        "first_name": "Louis",
+        "last_name": "Spohr",
+        "bio": "German Composer and violinist. Although his middle-class family initially opposed a musical career, he became a violinist in the Brunswick court establishment in 1799. After Mendelssohn's death in 1847, Spohr was generally revered in Germany and England as the sole surviving composer of the Classical tradition. Spohr's reputation as the greatest German violinist of his generation was established at an early age not only through performances of his own works but also by his versatility in performing the music of such composers as Mozart, Haydn, Rode, and Beethoven. He was the teacher of Ferdinand David and August Wilhelmj. His compositional output is quite significant, including: A Violin Method, 15 violin concertos, 9 Symphonies, and 3 Operas.",
+        "birth": "1754",
+        "death": "1859"
+    },
+    {
+        "first_name": "Henri",
+        "last_name": "Vieuxtemps",
+        "bio": "Belgian composer and violinist. He was the son of a weaver and amateur violinist/violin-maker. He received his first violin instruction from his father and later with Charles de Bériot.  He founded the violin school of the St. Petersburg Conservatory and guided the formation of a \"Russian school\" of violinists. In 1871, he returned to his native country to accept a professorship at the Brussels Conservatory, where his most illustrious pupil was Eugène Ysaÿe.",
+        "birth": "1820",
+        "death": "1881"
+    },
+    {
+        "first_name": "Jose Silvestre",
+        "last_name": "White",
+        "bio": "Also known as Joseph, was a Cuban violinist and composer. His father Don Carlos White was Spanish and his mother was Afro-Cuban. After receiving his early musical training from his father, who was an amateur violinist, José White gave his first concert in Matanzas on 21 March 1854. He was accompanied by the visiting American pianist-composer Louis Moreau Gottschalk, \"who encouraged him to pursue further violin studies in Paris and raised money for him to travel there.\" José White studied at the Paris Conservatory between the years and was highly praised by Rossini. From 1877 to 1889 he was director of the Imperial Conservatory in Rio de Janeiro, Brazil, where he served as court musician for the Emperor Pedro I.",
+        "birth": "1836",
+        "death": "1918"
+    },
+    {
+        "first_name": "Henryk",
+        "last_name": "Wieniawski",
+        "bio": "Polish composer and violinist. His talent for playing the violin was recognized early on, and in 1843 he entered the Paris Conservatoire. Wieniawski published his first opus, a Grand Caprice Fantastique, the start of a modest but important catalog of 24 opus numbers. When his engagement to Isabella Hampton was opposed by her parents, Wieniawski wrote Légende, Opus 17; this work helped the parents change their mind and the couple married in 1860. In 1875 Wieniawski replaced Henri Vieuxtemps as violin professor at the conservatory at Brussels.Henryk Wieniawski was considered a violinist of genius and wrote some of the most important works in the violin repertoire, including two extremely difficult violin concertos, \"L'Ecole Moderne, 10 Etudes-Caprices\", Scherzo-Tarantelle, Op. 16 and Légende, Op. 17 are also frequently performed works.What is sometimes called the \"Russian bow grip\" ought to be called the \"Wieniawski bow grip\" Wieniawski taught his students his own kind of very stiff bowing that allowed him to play a \"devil's staccato\" with ease.",
+        "birth": "1835",
+        "death": "1880"
+    },
+    {
+        "first_name": "Franz",
+        "last_name": "Wohlfahrt",
+        "bio": "German violinist, teacher, and composer. His father, Anton Sitt, was a well-known violinmaker. He never achieved the “Wunderkind” status, although he was a prodigy. In 1880 he became the conductor of the orchestra of the Baron Derwies at Nice. After the death of the Baron Derwies, Sitt went to North Germany and became the conductor of the recently formed Crystal palace Institute orchestra. Yet, neither of the positions he held were important. When Brodsky was appointed violin professor at the Leipzig Conservatory, he founded a string quartet with Novacek, Sitt (viola), and Grützmacher, which gain fame all over Europe very quickly. Besides his numerous etudes and scales he wrote two violin concertos, two concertinos, and several short pieces for violin.",
+        "birth": "1883",
+        "death": "1884"
+    },
+    {
+        "first_name": "Eugene",
+        "last_name": "Ysaÿe",
+        "bio": "Belgian violinist, composer and conductor. His brother was pianist and composer Théo Ysaÿe. He began violin lessons at age four with his father, and later studied with Joseph Massart, Henryk Wieniawski, and Henri Vieuxtemps. After his graduation, Ysaÿe was the principal violin of the Benjamin Bilse beer-hall orchestra, which later developed into the Berlin Philharmonic. Among his more respected pupils are Josef Gingold, the violist William Primrose, Nathan Milstein, Louis Persinger, Alberto Bachmann, Mathieu Crickboom, and Jascha Brodsky.During his tenure as professor at the Conservatoire, Ysaÿe continued to tour an ever-broadening section of the world, including all of Europe, Russia, and the United States. Despite health concerns, particularly regarding the (probably diabetes-related) condition of his hands, Ysaÿe was at his best when performing, and many prominent composers dedicated major works to him, including Claude Debussy, Camille Saint-Saëns, César Franck, and Ernest Chausson.",
+        "birth": "1858",
+        "death": "1931"
     }
-  ]
+]
