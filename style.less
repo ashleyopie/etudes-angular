@@ -1,0 +1,169 @@
+
+html {height:100%;}
+
+body{
+	font-size:16px;
+	font-family: 'Open Sans', sans-serif;
+	height:100%;
+}
+#wrap{
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+.active-btn a{
+color:black !important;
+font-weight: bold;
+}
+
+.thumbnail {
+	border:none;
+}
+.jumbotron {
+	background: url(img/banner.png) no-repeat center center;
+	width:100%;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height:398px;
+
+	h1 {
+		font-family: 'Sorts Mill Goudy', serif;
+		color: white;
+		size:4rem !important;
+		padding-left:28px;
+	}
+	p {
+		color: white;
+		font-family: 'Open Sans', sans-serif;
+		width:41%;
+		font-size: 1.7rem;
+	}
+}
+h1{
+	font-size: 4rem;
+}
+
+.container {
+	padding:0;
+	.jumbotron {
+		border-radius: 0;
+	}
+}
+.video-container {
+	max-width:970px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.navbar-brand {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	padding-left: 30px !important;
+}
+form{
+	width:500px;
+	margin:0 auto;
+}
+.search { 
+	padding:14px 30px;
+	margin:3px; 
+	background: url('') no-repeat 8px 6px; 
+}
+
+.rounded { 
+	border-radius:27px; 
+	-moz-border-radius:27px; 
+	-webkit-border-radius:27px; 
+	width:100%;
+	margin-bottom:30px;
+	box-shadow: none;
+	border:2px lightgray solid;
+}
+input[type=text]{
+	color:gray;
+}
+.navbar-default {
+	background: transparent;
+	border:none;
+
+	.navbar-nav > li > a {
+		text-align: center;
+		&:hover { text-align: center;}
+	}
+}
+
+.footer {
+	background:lightgray;
+	/*padding:10px;
+*/	
+height:60px;
+}
+input:focus, button:focus {outline:0 !important;}
+
+@media (max-width:320px) {
+	.jumbotron{
+		background: url(img/banner.png) no-repeat 0 0;
+		p {display:none;}
+		h1 {margin-top:220px;}
+	}
+}
+@media screen and (min-width: 1280px){
+.jumbotron h1, .jumbotron .h1 {
+  font-size: 63px;
+}
+}
+
+@media screen and (min-width:2500px) {
+	.jumbotron {
+		background:url(img/banner.png) no-repeat 0 10%;
+		background-size: cover;
+		h1, .h1 {
+			font-size:91px;
+		}
+		p {width:56%;}
+	}
+}
+.clear_button, .clear_button:hover {
+    color: darkgray;
+    text-decoration: none;
+    font-size:39px !important;
+}
+/* about page */
+.cover-image {
+	background: url(img/cover.png) no-repeat center;
+	width:283px;
+	height:328px;
+
+}
+/*Contact form*/
+
+.error {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+.submissionMessage {
+  background-color: rgba(255,255,255, 0.2);
+  border-radius: 5px;
+  padding: 12px;
+  text-align: center;
+  display: block;
+  box-shadow: 0 0 2px white;
+  width: 60%;
+}
+.contact-title{
+	font-size: 24px;
+	.about-title;
+}
+.title-strip {
+	background:#4f4a4b; 
+	height:50px;
+	margin-bottom:20px;
+}
+.about-title{
+	font-size: 24px;
+	padding-bottom:28px;
+}
